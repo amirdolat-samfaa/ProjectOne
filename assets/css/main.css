@@ -1,0 +1,464 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(../fonts/Vazir.eot),
+        url(../fonts/Vazir.woff2)format("woff2"),
+        url(../fonts/Vazir.woff) format("woff"),
+        url(../fonts/Vazir.ttf) format("truetype"),
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Vazir" !important;
+    overflow-x: hidden;
+}
+
+.dark .dark-bg-body-dark{
+    background-color: #0B0D39;
+    color: #fff;
+}
+
+.lh-0 {
+    line-height: 0;
+}
+
+/* Header */
+.my-navbar .b-navbar{
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+.my-navbar .navbar-toggler{
+    border: none;
+}
+
+.b-navbar .h-img{
+    width: 55px;
+}
+
+.b-navbar .h-item{
+    color: blue;
+}
+
+.b-navbar .h-dropborder{
+    border-radius: 15px;
+}
+
+.b-navbar .btn-bluelight{
+    background-color: #0B0D39;
+    color: white;
+    border-radius: 25px;
+    width: 7rem;
+}
+
+.b-navbar .btn-light{
+    background-color: white;
+    color: #0B0D39;
+    border: 1px solid #0B0D39;
+    border-radius: 25px;
+    width: 7rem;
+}
+
+/* SectionOne */
+.section-one .p-gigili{
+    position: relative;
+}
+
+.section-one .gigili-1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    top: 10%;
+    left: -3%;
+}
+
+.section-one .gigili-2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 90%;
+    right: 35%;
+}
+
+.section-one .gigili-3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #0000ff4f;
+    border-radius: 50%;
+    bottom: 70%;
+    left: 90%;
+}
+
+.section-one .so-one{
+    color: #356DFF;
+}
+
+.section-one .btn-s-primary{
+    background-color: #356DFF;
+    color: white;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25px 25px 25px 8px;
+}
+
+.section-one .btn-s-dark{
+    background-color: white;
+    color: #0B0D39;
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid #0B0D39;
+    border-radius: 25px 25px 25px 8px;
+}
+
+.section-one .intro-btn{
+    position: relative;
+}
+
+.section-one .line{
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+    background-color: white;
+}
+
+/* SectionTwo */
+.section-two .st-bg{
+    background-color: #F2FBFC;
+    border-radius: 25px;
+    height: max-content;
+}
+
+.section-two .box{
+    background-color: #ffa50057;
+    color: orangered;
+    border-radius: 25px;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-two .st-one{
+    color: #356DFF;
+}
+
+.section-two .bg-circle{
+    border-radius: 50%;
+    background-color: white;
+    height: 225px;
+    width: fit-content;
+}
+
+.section-two .p-gigili{
+    position: relative;
+}
+
+.section-two .gigili-4{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    top: 0%;
+    left: -3%;
+}
+
+.section-two .gigili-5{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+    border-radius: 50%;
+    bottom: 70%;
+    left: 95%;
+}
+
+.section-two .gigili-6{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    bottom: -1%;
+    right: 50%;
+}
+
+/* SectionThree */
+.section-three .se-one{
+    color: #356DFF;
+}
+
+.section-three .p-gigili{
+    position: relative;
+}
+
+.section-three .gigili-7{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    top: 8%;
+    right: 1%;
+}
+
+.section-three .gigili-8{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    bottom: 5%;
+    right: 90%;
+}
+
+.section-three .btn-s-dark{
+    background-color: #0B0D39;
+    color: #fff;
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid #0B0D39;
+    border-radius: 25px 25px 25px 8px;
+}
+
+.section-three .bg-three-circle{
+    border-radius: 50px;
+    background-color: #F2FBFC;
+    height: 350px;
+}
+
+/* SectionFour */
+.section-four .sf-one{
+    color: #356DFF;
+}
+
+.section-four .box{
+    background-color: #ffa50057;
+    color: orangered;
+    border-radius: 25px;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-four .sl-bg{
+    position: relative;
+    height: 500px;
+}
+
+.section-four .sl-design{
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
+.section-four .bg-img{
+    background-color: #79bdff1f;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.section-four .card{
+    border: none;
+    border-radius: 25px 25px 25px 8px;
+    box-shadow: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.swiper-button-next::before, .swiper-rtl .swiper-button-prev::before , 
+.swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+    content: '' !important;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    bottom: 0;
+    top: unset;
+}
+
+.swiper-button-prev{
+    left: unset !important;
+    right: 48% !important;
+}
+
+.swiper-button-next{
+    right: unset !important;
+    left: 48% !important;
+}
+
+.section-four .bi-arrow-right-circle-fill{
+    color: #fff;
+}
+
+.section-four .bi-arrow-left-circle-fill{
+    color: #fff;
+}
+
+.section-four .bi-arrow-right-circle-fill:hover{
+    color: #0B0D39;
+    transition: all 0.5s;
+}
+
+.section-four .bi-arrow-left-circle-fill:hover{
+    color: #0B0D39;
+    transition: all 0.5s;
+}
+
+/* SectionFive */
+.section-five .box{
+    background-color: #ffa50057;
+    color: orangered;
+    border-radius: 25px;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-five .p-gigili{
+    position: relative;
+}
+
+.section-five .gigili-9{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    bottom: 0%;
+    right: 15%;
+}
+
+.section-five .gigili-10{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    top: 5%;
+    left: 2%;
+}
+
+.section-five .sf-one{
+    color: #356DFF;
+}
+
+.section-five .card{
+    border: none;
+    border-radius: 25px 25px 25px 8px;
+}
+
+.section-five .img-card{
+    position:relative;
+}
+
+.section-five .card-img{
+    border-radius: 35px;
+}
+
+.section-five .blog-card-header-1{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    border-radius: 20px;
+    color: #356DFF !important;
+}
+
+.section-five .blog-card-header-2{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    border-radius: 20px;
+    color: #00C254 !important;
+}
+
+.section-five .blog-card-header-3{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    border-radius: 20px;
+    color: #FF9100 !important;
+}
+
+.section-five .btn-s-dark{
+    background-color: white;
+    color: #0B0D39;
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid #0B0D39;
+    border-radius: 25px 25px 25px 8px;
+}
+
+.section-five .intro-btn{
+    position: relative;
+}
+
+.section-five .line{
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+    background-color: white;
+}
+
+/* SectionSix */
+.section-six .ss-bg{
+    background-color: #F2FBFC;
+    border-radius: 25px;
+    height: max-content;
+}
+
+.section-six .ss-one{
+    color: #356DFF;
+}
+
+.section-six .btn-s-dark{
+    background-color: #0B0D39;
+    color: #fff;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 25px 25px 25px 8px;
+}
+
+/* Footer */
+.my-footer .box{
+    background-color: #ffa50057;
+    color: orangered;
+    border-radius: 25px;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+    margin-right: -10px;
+}
+
+.my-footer .site-ar{
+    color: #356DFF;
+}
+
+.social-links a {
+    font-size: 20px;
+    color: #0B0D39;
+    margin: 0 3px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #0B0D39;
+    transition: all 0.5s;
+}
